@@ -6,6 +6,7 @@
     <title>Savannah's Meal Plan Generator</title>
     <link rel="stylesheet" href="src/style.css" />
 </head>
+<div class="container">
 <body>
     <header>
         <h1>Meal Plan Generator</h1>
@@ -16,10 +17,11 @@
     autofocus
     required
     autocomplete="off"
+    class="instructions"
     />
-    <input type="submit" />
+    <input type="submit" class="submit-button"/>
 </form>
-<div>
+<div class="meal-plan">
     The Meal Plan will populate here.
 </div>
 
@@ -39,6 +41,7 @@
       >hosted on Netlify</a
     >
 </footer>
+</div>
     <script src="src/index.js"></script>
 </body>
 </html>
