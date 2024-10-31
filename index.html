@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Savannah's Meal Plan Generator</title>
     <link rel="stylesheet" href="src/style.css" />
 </head>
@@ -12,7 +13,7 @@
         <h1>Meal Plan Generator</h1>
     </header>
     <main>
-<form>
+<form id="meal-plan-form">
     <input type="text" placeholder="Enter your meal plan parameters (allergies, macros, etc)"
     autofocus
     required
@@ -21,7 +22,7 @@
     />
     <input type="submit" class="submit-button"/>
 </form>
-<div class="meal-plan">
+<div class="meal-plan" id="meal-plan">
     The Meal Plan will populate here.
 </div>
 
