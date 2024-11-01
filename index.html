@@ -14,10 +14,11 @@
         <h1>Daily Meal Plan Generator</h1>
     </header>
     <main>
+        <div class ="form-container">
 <form id="meal-plan-form">
     <input 
     type="text" 
-    placeholder="Enter your parameters (allergies, macros, etc)"
+    placeholder="Enter your meal prep parameters (allergies, macros, etc.)"
     autofocus
     required
     autocomplete="off"
@@ -26,8 +27,9 @@
     />
     <input type="submit" class="submit-button"/>
 </form>
-<div class="meal-plan" id="meal-plan">
-    The Meal Plan will populate here.
+<div class="hint">Example: "dairy-free, 120 g of protein a day"</div>
+</div>
+<div id="meal-plan" class = "meal-plan-hidden">
 </div>
 
 
